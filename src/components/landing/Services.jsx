@@ -1,7 +1,7 @@
 const Services = () => {
   return (
     <div className="container">
-      <h2 className="jk">Services</h2>
+      <h2>Services</h2>
       <div className="flex services-list">
         <div>
           <img src="/easy.svg" alt="" />
