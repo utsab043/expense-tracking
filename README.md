@@ -1,3 +1,3 @@
 # expense-tracking
 
-Expense tracking WEb App using react
+Expense tracking Web App using react
