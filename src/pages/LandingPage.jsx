@@ -6,9 +6,10 @@ const LandingPage = () => {
   return (
     <main>
       <Navbar />
-      <div className="flex container">
-        <h1 className="hi">
-          Save money, <br /> Save yourself.
+      <div className="hlo container">
+        <h1>
+          Save money,
+          <br /> save yourself.
         </h1>
         <img src="/hi.svg" alt="" className="hero-image" />
       </div>
