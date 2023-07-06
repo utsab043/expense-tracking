@@ -1,5 +1,5 @@
-import ExpenseRoutes from './routes/ExpenseRoutes'
 import './App.css'
+import ExpenseRoutes from './routes/ExpenseRoutes'
 
 function App() {
 

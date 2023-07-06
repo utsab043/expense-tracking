@@ -1,0 +1,26 @@
+.auth-div {
+  flex-direction: column;
+  gap: 2em;
+  background-color: white;
+  padding: 3em;
+  border: 2px solid var(--color-dark);
+}
+
+.auth-wrapper {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.back-btn {
+  position: fixed;
+  top: 30px;
+  left: 30px;
+
+}
+
+.back-btn svg {
+  width: 4em;
+  height: 4em;
+  color: var(--color-primary);
+}

@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
+    
     <header className="flex container">
       <span className="flex logo">
         <img src="/vite.svg" />
@@ -7,10 +9,11 @@ const Navbar = () => {
       </span>
       <nav>
         <ul className="header-nav flex">
-          <li>SERVICES</li>
-          <li>ABOUT</li>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#service">SERVICES</a></li>
+          <li><a href="#about">ABOUT</a></li>
           <li>
-            <button>Signin</button>
+            <Link to ='/auth/login'>Sign in</Link>
           </li>
         </ul>
       </nav>

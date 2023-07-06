@@ -4,7 +4,7 @@ import About from "../components/landing/About";
 import Footer from "../components/landing/Footer";
 const LandingPage = () => {
   return (
-    <main>
+    <main id="home">
       <Navbar />
       <div className="hlo container">
         <h1>
