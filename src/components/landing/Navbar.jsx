@@ -13,7 +13,7 @@ const Navbar = () => {
           <li><a href="#service">SERVICES</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li>
-            <Link to ='/auth/login'>Sign in</Link>
+            <Link to ='/auth/login'>SIGN IN</Link>
           </li>
         </ul>
       </nav>
